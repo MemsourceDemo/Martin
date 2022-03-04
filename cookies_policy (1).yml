@@ -1,0 +1,614 @@
+it:
+  legal:
+    cookies_policy:
+      page_title: Informativa sui Cookie di Shopify
+
+      heading: Informativa sui cookie
+
+      last_updated: |-
+        Ultimo aggiornamento: 20 aprile 2021
+      intro_markdown: |
+        Il presente documento spiega quali sono le tipologie di cookie e le altre tecnologie di tracking che noi di Shopify possiamo installare sul tuo dispositivo quando visiti i nostri siti web o accedi al negozio di un merchant che utilizza la nostra piattaforma.
+      table:
+        headings:
+          name: Nome
+          function: Funzione
+          duration: Durata
+          third_party: Terze parti
+          description: Descrizione
+          policy: Norme sulla Privacy
+
+        store_function:
+          cookie_ab:
+            name: _ab
+            description: Utilizzato in connessione con l’accesso al pannello di controllo.
+            duration: 2 anni
+          cookie_secure_session_id:
+            name: _secure_session_id
+            description: "Utilizzato per monitorare la sessione di un utente durante le varie fasi della procedura di check-out e mantenere collegati i dettagli dell’ordine, del pagamento e della spedizione."
+            duration: 24 ore
+          cookie_shopify_country:
+            name: _shopify_country
+            description: "Nei negozi dove la valuta usata per i prezzi o il paese sono impostati da GeoIP, questo cookie memorizza il paese rilevato. In questo modo non occorre ripetere la ricerca in GeoIP dopo la prima richiesta."
+            duration: sessione
+          cookie_shopify_m:
+            name: _shopify_m
+            description: Utilizzato per gestire le impostazioni sulla privacy dei clienti.
+            duration: 1 anno
+          cookie_shopify_tm:
+            name: _shopify_tm
+            description: Utilizzato per gestire le impostazioni sulla privacy dei clienti.
+            duration: 30 minuti
+          cookie_shopify_tw:
+            name: _shopify_tw
+            description: Utilizzato per gestire le impostazioni sulla privacy dei clienti.
+            duration: 2 settimane
+          cookie_storefront_u:
+            name: _storefront_u
+            description: Utilizzato per facilitare l’aggiornamento delle informazioni dell’account cliente.
+            duration: 1 minuto
+          cookie_tracking_consent:
+            name: _tracking_consent
+            description: "Usato per memorizzare le preferenze dell’utente se un merchant ha impostato regole per la privacy nell’area geografica del visitatore."
+            duration: 1 anno
+          cookie_c:
+            name: c
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_cart:
+            name: cart
+            description: Utilizzato in connessione al carrello.
+            duration: 2 settimane
+          cookie_cart_currency:
+            name: cart_currency
+            description: Viene impostato al termine del check-out per assicurare che i nuovi carrelli abbiano la stessa valuta dell’ultimo check-out.
+            duration: 2 settimane
+          cookie_cart_sig:
+            name: cart_sig
+            description: È l’hash del contenuto di un carrello. Viene usato per verificare l’integrità del carrello e garantire le prestazioni di alcune operazioni del carrello.
+            duration: 2 settimane
+          cookie_cart_ts:
+            name: cart_ts
+            description: Utilizzato in connessione al check-out.
+            duration: 2 settimane
+          cookie_cart_ver:
+            name: cart_ver
+            description: Utilizzato in connessione al carrello.
+            duration: 2 settimane
+          cookie_checkout:
+            name: checkout
+            description: Utilizzato in connessione al check-out.
+            duration: 4 settimane
+          cookie_checkout_token:
+            name: checkout_token
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_dynamic_checkout_shown_on_cart:
+            name: dynamic_checkout_shown_on_cart
+            description: Utilizzato in connessione al check-out.
+            duration: 30 minuti
+          cookie_hide_shopify_pay_for_checkout:
+            name: hide_shopify_pay_for_checkout
+            description: Utilizzato in connessione al check-out.
+            duration: sessione
+          cookie_keep_alive:
+            name: keep_alive
+            description: Utilizzato in connessione con la localizzazione dell’acquirente.
+            duration: 2 settimane
+          cookie_master_device_id:
+            name: master_device_id
+            description: Utilizzato in connessione con l’accesso del merchant.
+            duration: 2 anni
+          cookie_previous_step:
+            name: previous_step
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_remember_me:
+            name: remember_me
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_secure_customer_sig:
+            name: secure_customer_sig
+            description: Utilizzato per riconoscere che un utente che accede a un negozio è un cliente e non deve ripetere la procedura di accesso.
+            duration: 1 anno
+          cookie_shopify_pay:
+            name: shopify_pay
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_shopify_pay_redirect:
+            name: shopify_pay_redirect
+            description: Utilizzato in connessione al check-out.
+            duration: "30 minuti, 3 settimane o 1 anno a seconda del valore"
+          cookie_storefront_digest:
+            name: storefront_digest
+            description: Memorizza il digest della password di un negozio per consentire ai merchant di visualizzare l’anteprima del negozio quando è protetto da password.
+            duration: 2 anni
+          cookie_tracked_start_checkout:
+            name: tracked_start_checkout
+            description: Utilizzato in connessione al check-out.
+            duration: 1 anno
+          cookie_checkout_one_experiment:
+            name: checkout_one_experiment
+            description: Utilizzato in connessione al check-out.
+            duration: sessione
+
+        analytics:
+          cookie_landing_page:
+            name: _landing_page
+            description: Tracking delle landing page.
+            duration: 2 settimane
+          cookie_orig_referrer:
+            name: _orig_referrer
+            description: Tracking delle landing page.
+            duration: 2 settimane
+          cookie_s:
+            name: _s
+            description: Analisi Shopify.
+            duration: 30 minuti
+          cookie_shopify_d:
+            name: _shopify_d
+            description: Analisi Shopify.
+            duration: sessione
+          cookie_shopify_fs:
+            name: _shopify_fs
+            description: Analisi Shopify.
+            duration: 30 minuti
+          cookie_shopify_s:
+            name: _shopify_s
+            description: Analisi Shopify.
+            duration: 30 minuti
+          cookie_shopify_sa_p:
+            name: _shopify_sa_p
+            description: Analisi Shopify su marketing e referral.
+            duration: 30 minuti
+          cookie_shopify_sa_t:
+            name: _shopify_sa_t
+            description: Analisi Shopify su marketing e referral.
+            duration: 30 minuti
+          cookie_shopify_y:
+            name: _shopify_y
+            description: Analisi Shopify.
+            duration: 1 anno
+          cookie_y:
+            name: _y
+            description: Analisi Shopify.
+            duration: 1 anno
+          cookie_shopify_evids:
+            name: _shopify_evids
+            description: Analisi Shopify.
+            duration: sessione
+          cookie_shopify_ga:
+            name: _shopify_ga
+            description: Shopify e Google Analytics.
+            duration: sessione
+
+        site_function:
+          cookie_brochure_session:
+            name: _Brochure_session
+            description: Utilizzato in connessione con la navigazione nel sito.
+            duration: '-'
+          cookie_checkout:
+            name: checkout
+            description: Utilizzato in connessione con il check-out di Pay su shop.app.
+            duration: 3 settimane
+          cookie_signed_in:
+            name: signed_in
+            description: Utilizzato in connessione con l’accesso a Shop.
+            duration: 1 anno
+          cookie_user:
+            name: user
+            description: Utilizzato in connessione con l’accesso a Shop.
+            duration: 1 anno
+
+        reporting:
+          cookie_landing_page: Tracking delle landing page.
+          cookie_orig_referrer: Tracking delle landing page.
+          cookie_s: Analisi Shopify.
+          cookie_session_id: Analisi Shopify
+          cookie_shopify_fs: Analisi Shopify.
+          cookie_shopify_s: Analisi Shopify.
+          cookie_shopify_sa_t: Analisi Shopify su marketing e referral.
+          cookie_shopify_uniq: Analisi Shopify.
+          cookie_shopify_y: Analisi Shopify.
+          cookie_y: Analisi Shopify.
+          cookie_verdict: Analisi Shopify
+          cookie_ab_test: Analisi Shopify.
+          cookie_cart_sig: Analisi Shopify.
+          cookie_ki_r: Analisi Shopify.
+          cookie_ki_t: Analisi Shopify.
+
+        oberlo_site_function:
+          cookie_oberlo_session: Utilizzato in connessione alla navigazione da app.
+          cookie_shipping_country: Utilizzato in connessione alla navigazione da app. Per l’esplorazione dei prodotti e il calcolo dei prezzi di spedizione.
+          cookie_user_locale: Utilizzato in connessione all’accesso del cliente. Per la memorizzazione della lingua scelta nella pagina di accesso.
+          cookie_hide_fufilment_banner: Utilizzato in connessione alla navigazione da app.
+          cookie_hide_bulk_ordering_feature_banner: Utilizzato in connessione alla navigazione da app.
+          cookie_hide_change_plan_banner_bulk_fulfillment: Utilizzato in connessione alla navigazione da app.
+          cookie_hide_banner_101: Utilizzato in connessione alla navigazione da app.
+          cookie_alert_setup_notifications_1: Utilizzato in connessione alla navigazione da app.
+
+        oberlo_reporting:
+          cookie_conversion: Analisi Oberlo.
+          cookie_conversion_leave: Analisi Oberlo.
+          cookie_track_extension_check: Analisi Oberlo.
+          cookie_shopify_ref: Analisi relative a marketing e referral. Monitoraggio dei referral.
+
+        third_party_analytics:
+          alexa_metrics:
+            name: Alexa Metrics
+            description: Utilizziamo Alexa Metrics per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.alexa.com/help/privacy'
+
+          bizible:
+            name: Bizible
+            description: Utilizziamo Bizible per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://documents.marketo.com/legal/privacy/'
+
+          bugsnag:
+            name: Bugsnag
+            description: Utilizziamo Bugsnag per risolvere i problemi dei nostri siti web.
+            url: 'https://docs.bugsnag.com/legal/privacy-policy/'
+
+          chartbeat:
+            name: Chartbeat
+            description: Utilizziamo Chartbeat per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://chartbeat.com/privacy/'
+
+          crazy_egg:
+            name: Crazy Egg
+            description: Utilizziamo Crazy Egg misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.crazyegg.com/privacy'
+
+          dc_analytics:
+            name: DC Analytics
+            description: Utilizziamo DC Analytics per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://dcanalytics.dcmn.com/privacy-policy'
+
+          exact_target:
+            name: ExactTarget
+            description: Utilizziamo ExactTarget (Salesforce) per misurare le interazioni degli utenti con il nostro sito web.
+            url: 'https://www.salesforce.com/company/privacy/'
+
+          facebook_pixel:
+            name: Pixel di Facebook
+            description: Utilizziamo il Pixel di Facebook per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://it-it.facebook.com/privacy/explanation'
+
+          fullstory:
+            name: Fullstory
+            description: Utilizziamo Fullstory per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.fullstory.com/legal/privacy/'
+
+          google_analytics:
+            name: Google Analytics
+            description: Utilizziamo Google Analytics per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://policies.google.com/privacy'
+
+          google_tag_manager:
+            name: Google Tag Manager
+            description: Utilizziamo Google Tag Manager per gestire i servizi di analisi.
+            url: 'https://policies.google.com/privacy'
+
+          hotjar:
+            name: Hotjar
+            description: Utilizziamo Hotjar per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.hotjar.com/legal/policies/privacy'
+
+          inspectlet:
+            name: Inspectlet
+            description: Utilizziamo Inspectlet per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.inspectlet.com/terms-of-service'
+
+          kiss_insights:
+            name: KissInsights
+            description: Utilizziamo KissInsights per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://signin.kissmetrics.com/privacy/'
+
+          loggly:
+            name: Loggly
+            description: Utilizziamo Loggly per risolvere i problemi dei nostri siti web.
+            url: 'https://www.loggly.com/about/privacy-policy/'
+
+          linked_in_insight:
+            name: LinkedIn Insight Tag
+            description: Utilizziamo LinkedIn Insight Tag per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://it.linkedin.com/legal/privacy-policy'
+
+          new_relic:
+            name: New Relic
+            description: Utilizziamo New Relic per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://newrelic.com/termsandconditions/privacy'
+
+          optimizely:
+            name: Optimizely
+            description: Utilizziamo Optimizely per testare miglioramenti e modifiche ai nostri siti web.
+            url: 'https://www.optimizely.com/privacy/'
+
+          pinterest:
+            name: Pinterest Analytics
+            description: Utilizziamo Pinterest Analytics per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://policy.pinterest.com/it/privacy-policy'
+
+          segment:
+            name: Segment
+            description: Utilizziamo Segment per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://segment.com/legal/privacy/'
+
+          sleeknote:
+            name: Sleeknote
+            description: Utilizziamo Sleeknote per misurare le interazioni degli utenti con il nostro sito web.
+            url: 'https://sleeknote.com/privacy-policy'
+
+          snapchat:
+            name: Snapchat
+            description: Utilizziamo Snapchat per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://snap.com/it-IT/privacy/privacy-policy'
+
+          speedcurve_lux:
+            name: Speedcurve Lux
+            description: Utilizziamo Speedcurve Lux per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://speedcurve.com/terms/'
+
+          taboola:
+            name: Taboola
+            description: Utilizziamo Taboola per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.taboola.com/it/policies/informativa-sulla-privacy'
+
+          tapfiliate:
+            name: Tapfiliate
+            description: Utilizziamo Tapfiliate per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://tapfiliate.com/privacy/privacy-policy/'
+
+          tealium:
+            name: Tealium
+            description: Utilizziamo Tealium per gestire i servizi di analisi.
+            url: 'https://tealium.com/privacy/'
+
+          tiktok:
+            name: TikTok
+            description: Utilizziamo TikTok per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://www.tiktok.com/legal/privacy-policy?lang=it'
+
+          twitter:
+            name: Twitter
+            description: Utilizziamo Twitter per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://twitter.com/it/privacy'
+
+          yelp:
+            name: Piattaforma del pubblico di Yelp
+            description: Utilizziamo Yelp per misurare le interazioni degli utenti con i nostri siti web.
+            url: 'https://terms.yelp.com/privacy/en_us/20200101_en_us/'
+
+        third_party_advertising:
+          bing_ads:
+            name: Bing Ads
+            description: Utilizziamo Bing Ads per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://privacy.microsoft.com/it-it/privacystatement'
+
+          drift:
+            name: Drift
+            description: Utilizziamo Drift come aiuto nel marketing conversazionale indirizzato ai clienti che visitano i nostri siti web.
+            url: 'https://www.drift.com/privacy-policy/'
+
+          facebook_custom_audiences:
+            name: Pubblico personalizzato di Facebook
+            description: Utilizziamo il Pubblico personalizzato di Facebook per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://www.facebook.com/policy.php'
+
+          google:
+            name: Google
+            description: Utilizziamo Google Ads per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://policies.google.com/privacy'
+
+          hubspot:
+            name: Hubspot
+            description: Utilizziamo Hubspot per gestire le nostre relazioni con i clienti.
+            url: 'https://legal.hubspot.com/privacy-policy'
+
+          intercom:
+            name: Intercom
+            description: Utilizziamo Intercom per gestire i rapporti con i clienti.
+            url: 'https://www.intercom.com/terms-and-policies#privacy'
+
+          marketo:
+            name: Marketo
+            description: Utilizziamo Marketo per gestire i rapporti con i clienti.
+            url: 'https://documents.marketo.com/legal/privacy/'
+
+          outbrain:
+            name: Outbrain
+            description: Utilizziamo Outbrain per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://www.outbrain.com/legal/privacy#privacy-policy'
+
+          quora:
+            name: Quora
+            description: Utilizziamo Quora per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://it.quora.com/about/privacy'
+
+          reddit:
+            name: Reddit
+            description: Utilizziamo Reddit Ads per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://www.redditinc.com/policies/privacy-policy'
+
+          source_knowledge:
+            name: SourceKnowledge
+            description: Utilizziamo SourceKnowledge per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://www.sourceknowledge.com/privacy'
+
+          yahoo:
+            name: Yahoo Japan Ads
+            description: Utilizziamo Yahoo Japan Ads per mostrare inserzioni mirate a chi visita i nostri siti web.
+            url: 'https://about.yahoo.co.jp/en/common/terms/'
+
+        third_party_content:
+          addthis:
+            name: AddThis
+            description: Utilizziamo AddThis per mostrare funzionalità di condivisione sui social nel sito web.
+            url: 'https://www.addthis.com/privacy/terms-of-service/'
+
+          disqus:
+            name: Disqus
+            description: Utilizziamo Disqus per offrire la possibilità di commentare i post sui nostri siti web.
+            url: 'https://help.disqus.com/terms-and-policies/disqus-privacy-policy'
+
+          connect:
+            name: Facebook Connect
+            description: Utilizziamo Facebook Connect per consentire ai visitatori dei nostri siti web di interagire e condividere contenuti mediante la piattaforma di social media Facebook.
+            url: 'https://www.facebook.com/policy.php'
+
+          gravatar:
+            name: Gravatar
+            description: Utilizziamo Gravatar per consentire ai visitatori dei nostri siti web di creare avatar.
+            url: 'https://it.gravatar.com/site/privacy'
+
+          kajabi:
+            name: Kajabi
+            description: Utilizziamo Kajabi per rendere disponibile il materiale del corso Oberlo 101.
+            url: 'https://kajabi.com/policies/privacy/'
+
+          twitter:
+            name: Twitter
+            description: Utilizziamo Twitter per consentire ai visitatori dei nostri siti web di interagire e condividere contenuti mediante la piattaforma di social media Twitter.
+            url: 'https://twitter.com/it/privacy'
+
+          wistia:
+            name: Wistia
+            description: Utilizziamo Wistia per mostrare contenuti video.
+            url: 'https://wistia.com/privacy'
+
+          youtube:
+            name: YouTube
+            description: Utilizziamo YouTube per mostrare contenuti video.
+            url: 'https://policies.google.com/privacy?hl=en-US'
+
+        third_party_site_functionality:
+          cloudflare:
+            name: Cloudflare
+            description: Shopify usa Cloudflare Naas (network-as-a-service) per l’edge routing.
+            url: 'https://www.cloudflare.com/it-it/privacypolicy/'
+
+      what_are_cookies:
+        heading: Cosa sono i cookie?
+
+        content_markdown: |
+          I cookie sono file di piccole dimensioni che vengono scaricati sul tuo computer o dispositivo quando visiti determinati siti web. Sul sito web di Shopify utilizziamo cookie di diversi tipi, tra cui: cookie strettamente necessari, cookie sulle performance, cookie pubblicitari e social media o content cookie. I cookie migliorano la tua esperienza di navigazione permettendo al sito web di memorizzare le tue azioni e preferenze (ad esempio, dati di accesso e paese). Ciò significa che non devi reinserire tali informazioni ogni volta che torni sul sito o navighi da una pagina all’altra. I cookie forniscono anche informazioni sulle modalità di utilizzo del sito web da parte degli utenti, ad esempio mostrando se un visitatore è nuovo o abituale. Trovi maggiori informazioni sui cookie (e altre tecnologie di tracking simili) e su come usiamo i dati raccolti attraverso tali tecnologie nella nostra [Informativa sulla privacy](https://www.shopify.com/legal/privacy).
+      cookies_used:
+        heading: Quali cookie usiamo e perché?
+        browsing_and_usage:
+          content_markdown: |
+            Alcuni cookie sono necessari per consentirti di navigare sul nostro sito, utilizzare le sue funzionalità e accedere ad aree riservate. L’uso di questi cookie è essenziale per il funzionamento del sito. Ad esempio, usiamo cookie user-input della durata di una sessione per tenere traccia degli input dell’utente durante la compilazione di moduli che si estendono su varie pagine.
+        memory:
+          content_markdown: |
+            Utilizziamo anche cookie funzionali per ricordare le scelte che hai fatto o le informazioni che hai fornito, come il tuo nome utente, la lingua o il paese dove risiedi. Questo ci permette di personalizzare la tua esperienza sul sito web in base alle tue preferenze. Ad esempio, i cookie di autenticazione sono cookie funzionali che vengono utilizzati per la durata di una sessione (o persistenti, se accetti la funzione “ricordami”) per consentire agli utenti di autenticarsi nelle visite successive o ottenere l’accesso a contenuti protetti sul sito. I cookie funzionali che utilizziamo includono:
+
+            %{memory_list}
+          list:
+            user_centric: |-
+              Cookie di sicurezza incentrati sull’utente volti a rilevare abusi di autenticazione per una durata limitata e continua, come i ripetuti tentativi di accesso non riusciti. Questi cookie sono concepiti in particolare per aumentare il livello di sicurezza del servizio.
+            multimedia: |-
+              I cookie di sessione del lettore di contenuti multimediali (cookie flash) vengono utilizzati per la durata di una sessione per memorizzare i dati tecnici necessari per la riproduzione di contenuti video o audio (ad es. qualità dell’immagine, velocità del collegamento di rete e parametri di buffering).
+            load_balancing: |-
+              I cookie di sessione di bilanciamento del carico vengono utilizzati per tutta la durata della sessione per identificare lo stesso server nel pool, in modo che il servizio di di bilanciamento del carico possa reindirizzare correttamente le richieste degli utenti.
+            customization: |-
+              I cookie persistenti di personalizzazione dell’interfaccia utente vengono utilizzati per memorizzare le preferenze dell’utente riguardo un servizio sulle varie pagine web.
+        performance:
+          content_markdown: |
+            Noi di Shopify siamo attenti all’esperienza utente e ci avvaliamo di diversi strumenti per migliorare il nostro sito web e la nostra piattaforma commerciale. A tal fine, utilizziamo cookie di reporting e analitici per raccogliere informazioni su modalità e frequenza con cui utilizzi il nostro sito web e i negozi dei nostri merchant. Questi cookie raccolgono informazioni unicamente a fini statistici e con codici in forma anonima, che non ti identificano direttamente. I cookie sulle performance che utilizziamo includono:
+
+            %{performance_list}
+          list:
+            first_party: |-
+              Cookie analitici diretti - Utilizziamo questi cookie per calcolare il numero di visitatori unici, per migliorare i nostri siti web e i siti web dei nostri merchant e per rilevare i termini più cercati sui motori di ricerca che indirizzano a una pagina web. Questi cookie non vengono sfruttati per finalità di marketing online. Utilizziamo questi cookie per conoscere le performance dei siti web nostri e dei nostri merchant e per apportare miglioramenti significativi alla tua esperienza di navigazione.
+            third_party: |-
+              Cookie analitici di terze parti - Utilizziamo anche Google Analytics e gli altri strumenti di analisi di terze parti elencati di seguito per rilevare come gli utenti interagiscono con i contenuti del nostro sito web. Questi cookie “ricordano” le azioni compiute dagli utenti sulle pagine precedenti e le loro modalità di interazione con il sito web. Per maggiori dettagli su Google Analytics, visita [la pagina informativa di Google](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage). Per istruzioni su come disattivare Google Analytics, guarda più avanti.
+        advertising:
+          content_markdown: |
+            I cookie pubblicitari vengono utilizzati sul nostro sito web per adattare il marketing a te e ai tuoi interessi fornendoti un servizio più personalizzato in futuro. Questi cookie ricordano che hai visitato il nostro sito web e potremmo condividere tali informazioni con terze parti, ad esempio con gli inserzionisti. Sebbene questi cookie possano tenere traccia delle visite del tuo dispositivo sul nostro sito web e su altri siti, in genere non sono in grado di identificarti personalmente. Senza questi cookie, le inserzioni che visualizzi sarebbero meno rilevanti e interessanti per te. Trovi maggiori informazioni su come le aziende utilizzano i cookie per fare pubblicità mirata o di retargeting [qui](https://www.networkadvertising.org/understanding-online-advertising/). Noi non installiamo direttamente cookie pubblicitari tramite i negozi dei nostri merchant, anche se i merchant possono scegliere di farlo autonomamente.
+        social_and_content:
+          content_markdown: |
+            Infine, i social e content cookie vengono installati da molti plugin dei social media (es. pulsante “Mi piace” di Facebook) e da altri strumenti destinati a fornire o migliorare i contenuti di un sito web (es. servizi che permettono la riproduzione di file video o che creano sezioni di commenti). Integriamo questi moduli nella nostra piattaforma per migliorare l’esperienza di navigazione e l’interazione con i nostri siti web. Tieni presente che alcuni di questi servizi di terze parti installano cookie utilizzati anche per fini come la pubblicità comportamentale, l’analisi e/o le ricerche di mercato.
+      storefronts:
+        heading: Negozi dei merchant
+
+        content_markdown: |
+          Quando i merchant utilizzano la nostra piattaforma per i loro negozi online, installiamo i seguenti cookie per i visitatori dei loro negozi:
+
+          **Cookie necessari per il funzionamento del negozio**:
+
+          %{store_function_table}
+
+          **Cookie di reporting e analitici**
+
+          %{analytics_table}
+      websites:
+        heading: Siti web di Shopify
+
+        content_markdown: |
+          Quando i visitatori accedono ai siti web di Shopify, di solito installiamo i seguenti cookie di Shopify:
+
+          **Cookie necessari per il funzionamento dei siti**
+
+          %{site_function_table}
+
+          **Cookie di reporting e analitici**
+
+          %{reporting_table}
+
+          Inoltre, utilizziamo pixel e tag delle seguenti terze parti, che a loro volta possono installare:
+
+          **Cookie necessari per il funzionamento dei siti**
+
+          %{third_party_site_functionality_table}
+
+          **Cookie di reporting e analitici**
+
+          %{third_party_analytics_table}
+
+          **Cookie pubblicitari**
+
+          %{third_party_advertising_table}
+
+          **Social media o content cookie**
+
+          %{third_party_content_table}
+      oberlo:
+        heading: Siti web di Oberlo
+
+        content_markdown: |
+          Quando i visitatori accedono a siti web di Oberlo, di solito installiamo i seguenti cookie di Oberlo:
+
+          **Cookie necessari per il funzionamento dei siti**
+
+          %{oberlo_site_function_table}
+
+          **Cookie di reporting e analitici**
+
+          %{oberlo_reporting_table}
+
+          Inoltre, utilizziamo pixel e tag delle seguenti terze parti, che a loro volta possono installare:
+
+          Cookie di reporting e analitici:
+
+          %{oberlo_third_party_analytics_table}
+
+          Cookie pubblicitari:
+
+          %{oberlo_third_party_advertising_table}
+
+          Cookie di social media e contenuti:
+
+          %{oberlo_third_party_content_table}
+      length:
+        heading: Per quanto tempo i cookie rimarranno sul mio computer o dispositivo mobile?
+
+        content_markdown: |
+          Il periodo di permanenza di un cookie nel tuo computer o dispositivo mobile dipende dalla sua natura di cookie “persistente” o cookie “di sessione”. I cookie di sessione durano finché non si interrompe la navigazione, mentre i cookie persistenti durano fino alla loro scadenza o rimozione. La maggior parte dei cookie che utilizziamo sono persistenti e scadono in un arco di tempo di 30 minuti-2 anni dalla data in cui sono stati scaricati sul tuo dispositivo. Consulta la sezione qui sotto su come controllare i cookie se desideri maggiori informazioni su come rimuovere i cookie prima della loro scadenza.
+      control:
+        heading: Come gestire i cookie?
+
+        content_markdown: |
+          Puoi controllare e gestire i cookie in vari modi. Tieni presente che la rimozione o il blocco dei cookie possono incidere negativamente sulla tua user experience e alcune parti del nostro sito web potrebbero diventare inaccessibili.
+
+          La maggior parte dei browser accetta i cookie in automatico, ma puoi scegliere se accettare o meno i cookie attraverso le opzioni del tuo browser, spesso presenti nel menu “Strumenti” o “Preferenze” del browser. Maggiori informazioni su come modificare le impostazioni del browser e su come bloccare, gestire o filtrare i cookie sono disponibili nella guida del browser o su siti come: [www.allaboutcookies.org](http://www.allaboutcookies.org).
+
+          Molti dei servizi pubblicitari di terze parti e altri servizi di monitoraggio sopra elencati consentono di rifiutare esplicitamente i loro sistemi di monitoraggio. Puoi trovare maggiori informazioni sui dati raccolti e sulle modalità di rifiuto nei link all’informativa sulla privacy sopra elencati.
